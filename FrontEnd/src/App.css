@@ -1,0 +1,4 @@
+.custom-modal {
+  margin-left: 240px; /* same as sidebar width */
+  max-width: calc(100% - 240px) !important;
+}
