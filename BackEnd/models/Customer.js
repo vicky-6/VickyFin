@@ -9,10 +9,10 @@ const customerSchema = new mongoose.Schema(
     email: { type: String },
 
     amount: { type: Number, required: true },
-    interestPerMonth: { type: Number, required: true },   // NEW
+    interestPerMonth: { type: Number, required: true },  
     duration: { type: Number, required: true },
-    totalInterest: { type: Number, required: true },      // NEW
-    totalAmount: { type: Number, required: true },        // NEW
+    totalInterest: { type: Number, required: true },
+    totalAmount: { type: Number, required: true },
     emi: { type: Number, required: true },
 
     balanceAmount: { type: Number, default: 0 },
